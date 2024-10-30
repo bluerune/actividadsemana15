@@ -1,0 +1,53 @@
+body {
+    align-items: center;
+    text-align: center;
+}
+
+a {
+    color: black;
+}
+
+.col {
+    background-color: rgb(245, 245, 245);
+
+}
+
+.list-group {
+    max-width: 15em;
+
+}
+
+.carousel-item {
+    transition: transform 2s ease, opacity .5s ease-out;
+}
+
+.list-group-item {
+    text-align: left;
+}
+
+nav {
+    color: aliceblue;
+}
+#opcionesBtn {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    #opcionesContainer, header {
+        display: none;
+        align-items: center;
+    }
+
+    .d-flex {
+        float: top;
+    }
+    #opcionesBtn {
+        display: contents;
+    }
+
+    nav {
+        text-align: left;
+        align-items: left;
+    }
+
+}
