@@ -48,8 +48,8 @@ nav {
         float: none;
         display: none;
         align-items: center;
-        width: 100%;
-        margin-left: 0;
+        width: 80%;
+        margin-left: 10%;
         margin-top: 1em;
         margin-bottom: 1em;
     }
@@ -64,7 +64,7 @@ nav {
     }
 
     .col {
-        width: 100%;
+        width: 50%;
     }
 
     #searchTop {
@@ -74,6 +74,19 @@ nav {
     #searchBottom {
         display: none;
     }
-    
+
+
+}
+
+@media (max-width: 544px) {
+
+    #opcionesContainer {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .col {
+        width: 100%;
+    }
 
 }
